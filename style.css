@@ -13,6 +13,7 @@ body {
 #navBar {
   background-color: rgb(184, 184, 184);
   width: 100%;
+  margin: 0px auto;
   height: 58px;
   display: flex;
   justify-content: center;
@@ -22,6 +23,7 @@ body {
 
 nav h1 {
   font-size: 1.85rem;
+  margin-left: 3rem;
 }
 
 nav #search,
@@ -46,8 +48,9 @@ nav #loginBtn {
 
 .allBoxes {
   display: flex;
-  /* align-items: center; */
   font-weight: 700;
+  width: 100%;
+  justify-content: center;
 }
 
 /* Start - Left Boxs */
@@ -137,9 +140,9 @@ span {
   margin-top: 5px;
 }
 
-#greenBox {
+.rightUpBox #greenBox {
   width: 150px;
-  height: 10px;
+  height: 8px;
   margin: 0px auto;
   margin-top: 20px;
   background-color: rgb(127, 167, 136);

@@ -14,7 +14,7 @@
     <nav id="navBar">
       <h1>Dojonary</h1>
       <input type="text" name="Search" id="search" placeholder="Search Bar" />
-      <button onclick="loginBChange()" id="loginBtn">Login</button>
+      <button onclick="loginBtnChange()" id="loginBtn">Login</button>
     </nav>
 
     <!-- End - Nav Bar -->
@@ -26,7 +26,9 @@
             <h2>ninja</h2>
             <p>noun</p>
             <p>Plural: ninjas</p>
-            <p class="yellowBox">13 likes</p>
+            <p class="yellowBox" id="topLikes" onclick="topLikes(this)">
+              13 likes
+            </p>
           </div>
           <div class="rightSide">
             <p>A practitioner skilled in the</p>
@@ -56,7 +58,8 @@
       <div class="rightUpBox">
         <p class="rightBoxWord1">Dojonary is</p>
         <p class="rightBoxWord2">defined by YOU</p>
-        <p id="greenBox">Add Definition</p>
+        <!-- <button id="greenBox">Add Definition</button> -->
+        <p id="greenBox" onclick="hide(this)">Add Definition</p>
       </div>
     </div>
     <script src="script.js"></script>
