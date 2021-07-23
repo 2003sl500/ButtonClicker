@@ -43,10 +43,19 @@ nav #loginBtn {
   width: 60px;
 }
 /* End - NavBar */
+
+.allBoxes {
+  display: flex;
+  /* align-items: center; */
+  font-weight: 700;
+}
+
 /* Start - Left Boxs */
 .leftBoxes {
   width: 385px;
   margin-left: 80px;
+  display: flex;
+  flex-direction: column;
 }
 
 .leftUpBox {
@@ -103,3 +112,39 @@ span {
 }
 
 /* End - Left Boxs */
+/* Start - Right Box */
+
+.rightUpBox {
+  width: 180px;
+  height: 120px;
+  background-color: whitesmoke;
+  border: 2px solid black;
+  margin-bottom: 20px;
+  margin-left: 20px;
+  font-weight: 700;
+}
+
+.rightBoxWord1,
+.rightBoxWord2 {
+  margin-left: 14px;
+}
+
+.rightBoxWord1 {
+  margin-top: 15px;
+}
+
+.rightBoxWord2 {
+  margin-top: 5px;
+}
+
+#greenBox {
+  width: 150px;
+  height: 10px;
+  margin: 0px auto;
+  margin-top: 20px;
+  background-color: rgb(127, 167, 136);
+  border: 2px solid black;
+  box-shadow: 2px 2px black;
+  text-align: center;
+  padding: 5px 0px 10px 0px;
+}
